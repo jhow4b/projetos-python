@@ -1,0 +1,50 @@
+[2025-01-31 14:53:22] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf
+[2025-01-31 14:53:22] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf
+[2025-01-31 14:53:22] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-01-31 14:53:22] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-01-31 14:53:22] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf
+[2025-01-31 14:53:22] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf
+[2025-01-31 14:53:26] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\CPF.pdf
+[2025-01-31 14:53:26] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\CTPS.pdf
+[2025-01-31 14:53:26] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-01-31 14:53:26] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-01-31 14:53:26] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Reservista.pdf
+[2025-01-31 14:53:26] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\RG.pdf
+[2025-01-31 14:53:58] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf
+[2025-01-31 14:53:58] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf
+[2025-01-31 14:53:58] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-01-31 14:53:58] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-01-31 14:53:58] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf
+[2025-01-31 14:53:58] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf
+[2025-01-31 14:54:06] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\CPF.pdf
+[2025-01-31 14:54:06] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\CTPS.pdf
+[2025-01-31 14:54:06] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-01-31 14:54:06] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-01-31 14:54:06] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Reservista.pdf
+[2025-01-31 14:54:06] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\RG.pdf
+[2025-01-31 14:55:40] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf
+[2025-01-31 14:55:40] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf
+[2025-01-31 14:55:40] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-01-31 14:55:40] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-01-31 14:55:40] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf
+[2025-01-31 14:55:40] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf
+[2025-01-31 14:55:42] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\CPF.pdf
+[2025-01-31 14:55:42] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\CTPS.pdf
+[2025-01-31 14:55:42] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-01-31 14:55:42] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-01-31 14:55:42] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Reservista.pdf
+[2025-01-31 14:55:42] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\RG.pdf
+[2025-02-03 14:17:29] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf
+[2025-02-03 14:17:29] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf
+[2025-02-03 14:17:29] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-02-03 14:17:29] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-02-03 14:17:29] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf
+[2025-02-03 14:17:29] Arquivo movido: C:/Users/jhoib/Desktop/Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf
+[2025-02-03 14:17:31] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CPF.pdf -> C:/Users/jhoib/Desktop/Documentos\CPF.pdf
+[2025-02-03 14:17:31] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\CTPS.pdf -> C:/Users/jhoib/Desktop/Documentos\CTPS.pdf
+[2025-02-03 14:17:31] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Curriculo - Jhonathan Bueno.pdf -> C:/Users/jhoib/Desktop/Documentos\Curriculo - Jhonathan Bueno.pdf
+[2025-02-03 14:17:31] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf -> C:/Users/jhoib/Desktop/Documentos\JHONATHAN ALEXANDRE - CERTIFICADO APRENDIZAGEM RENAPSI.pdf
+[2025-02-03 14:17:31] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\Reservista.pdf -> C:/Users/jhoib/Desktop/Documentos\Reservista.pdf
+[2025-02-03 14:17:31] Desfeito: C:/Users/jhoib/Desktop/Documentos\Documentos\RG.pdf -> C:/Users/jhoib/Desktop/Documentos\RG.pdf
+[2025-02-04 15:19:24] Movido: C:\Users\jhoib\Desktop\Persona 3 Reload.lnk -> C:\Users\jhoib\Desktop\Outros\Persona 3 Reload.lnk
+[2025-02-04 15:19:24] Movido: C:\Users\jhoib\Desktop\Silent Hill 2.lnk -> C:\Users\jhoib\Desktop\Outros\Silent Hill 2.lnk
