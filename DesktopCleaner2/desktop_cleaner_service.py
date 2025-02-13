@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox, simpledialog
+from tkinter import filedialog, messagebox, simpledialog, scrolledtext
 import threading
 import time
 import os
@@ -11,7 +11,9 @@ from PIL import Image, ImageDraw
 
 # Diretorio a ser monitorado
 config_path = "config.json"
+log_path = "log.txt"
 rodando = False
+icone = None
 
 def carregar_config():
     if os.path.exists(config_path):
@@ -22,6 +24,15 @@ def carregar_config():
 def salvar_config(config):
     with open(config_path, "w") as file:
         json.dump(config, file)
+
+def log(mensagem):
+    try:
+        with open(log_path, "a") as file:
+            file.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {mensagem}\n")
+        atualizar_logs(mensagem)
+    except Exception as e:
+        print(f"Erro ao escrever no log: {e}")
+
 
 def selecionar_pasta():
     pasta = filedialog.askdirectory()
@@ -47,7 +58,7 @@ def iniciar_organizacao():
     salvar_config(config)
 
     rodando = True
-    thread = threading.Thread(target=executar_organizacao, args=(diretorio, intervalo), daemon=True).start()
+    threading.Thread(target=executar_organizacao, args=(diretorio, intervalo), daemon=True).start()
     messagebox.showinfo("Iniciando", "A organização foi iniciada!")
 
 def parar_organizacao():
@@ -58,10 +69,14 @@ def parar_organizacao():
 def executar_organizacao(diretorio, intervalo):
     global rodando
     while rodando:
+        print("Executando organização...")
+        log("Executando organização...")
         organizar_pasta(diretorio)
         time.sleep(intervalo)
 
+
 def organizar_pasta(diretorio):
+    log(f"Iniciando organização na pasta: {diretorio}")
     categorias = {
         "Imagens": [".jpg", ".jpeg", ".png", ".gif", ".bmp"],
         "Documentos": [".pdf", ".doc", ".docx", ".txt", ".xlsx", ".pptx"],
@@ -71,16 +86,23 @@ def organizar_pasta(diretorio):
         "Executaveis": [".exe"],
         "Outros": []
     }
+    
     for item in os.listdir(diretorio):
         item_path = os.path.join(diretorio, item)
-        
-        if os.path.isdir(item_path) or item in config["arquivos_bloqueados"]:
+
+        if os.path.isdir(item_path):
+            log(f"Pasta ignorada: {item}")
+            continue
+
+        if item in config["arquivos_bloqueados"]:
+            log(f"Arquivo bloqueado ignorado: {item}")
             continue
 
         _, ext = os.path.splitext(item)
         ext = ext.lower()
 
         if ext in config["extensoes_bloqueadas"]:
+            log(f"Extensão bloqueada ignorada: {item}")
             continue
 
         categoria = "Outros"
@@ -95,8 +117,10 @@ def organizar_pasta(diretorio):
 
         try:
             shutil.move(item_path, os.path.join(pasta_destino, item))
+            log(f"Movido: {item} → {pasta_destino}")
         except Exception as e:
-            print(f"Erro ao mover {item}: {e}")
+            log(f"Erro ao mover {item}: {e}")
+
 
 def adicionar_arquivo_bloqueado():
     arquivo = simpledialog.askstring("Adicionar", "Digite o nome do arquivo a ser bloqueado:")
@@ -147,7 +171,25 @@ def editar_extensao_bloqueada():
             salvar_config(config)
             messagebox.showinfo("Sucesso", f"Arquivo '{antigo}' alterado para '{novo}'!")
 
+def atualizar_logs(mensagem):
+    if text_logs.winfo_exists():
+        text_logs.insert(tk.END, mensagem + "\n")
+        text_logs.yview(tk.END)
+    else:
+        print(f"Erro: text_logs não encontrado - {mensagem}")
+
+
+def abrir_logs():
+    os.system(f"notepad {log_path}")
+
+def minimizar():
+    global icone
+    root.withdraw()
+    if not icone:
+        criar_icone()
+
 def criar_icone():
+    global icone
     image = Image.new("RGB", (64, 64), (255, 255, 255))
     draw = ImageDraw.Draw(image)
     draw.rectangle((10, 10, 54, 54), fill="blue")
@@ -163,11 +205,11 @@ def criar_icone():
     icone.run()
 
 def mostrar_janela():
+    global icone
     root.deiconify()
-
-def minimizar():
-    root.withdraw()
-    threading.Thread(target=criar_icone, daemon=True).start()
+    if icone:
+        icone.stop()
+        icone = None
 
 def sair_programa(icon, _):
     global rodando
@@ -176,7 +218,6 @@ def sair_programa(icon, _):
     root.destroy()
 
 config = carregar_config()
-rodando = False
 root = tk.Tk()
 root.title("Desktop Cleaner")
 root.geometry("400x300")
@@ -193,6 +234,12 @@ entry_intervalo = tk.Entry(root, width=10)
 entry_intervalo.pack(pady=5)
 entry_intervalo.insert(0, str(config["intervalo"]))
 
+frame_logs = tk.Frame(root)
+frame_logs.pack(pady=5)
+tk.Label(frame_logs, text="Logs de Execução:").pack()
+text_logs = scrolledtext.ScrolledText(frame_logs, width=50, height=10)
+text_logs.pack()
+
 tk.Button(root, text="Iniciar", command=iniciar_organizacao, bg="green", fg="white").pack(pady=5)
 tk.Button(root, text="Parar", command=parar_organizacao, bg="red", fg="white").pack(pady=5)
 
@@ -206,7 +253,7 @@ tk.Button(root, text="Editar Extensão", command=editar_extensao_bloqueada).pack
 tk.Button(root, text="Remover Extensão", command=remover_extensao_bloqueada).pack(pady=5)
 
 
-
+tk.Button(root, text="Ver Logs", command=abrir_logs).pack(pady=5)
 tk.Button(root, text="Minimizar", command=minimizar).pack(pady=5)
 
 root.mainloop()

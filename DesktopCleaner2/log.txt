@@ -1,0 +1,9 @@
+2025-02-13 15:50:06 - Executando organização...
+2025-02-13 15:50:06 - Iniciando organização na pasta: C:/Users/jhoib/Desktop
+2025-02-13 15:50:06 - Extensão bloqueada ignorada: Animal Well.exe - Atalho.lnk
+2025-02-13 15:50:06 - Pasta ignorada: Documentos
+2025-02-13 15:50:06 - Pasta ignorada: Executaveis
+2025-02-13 15:50:06 - Pasta ignorada: Imagens
+2025-02-13 15:50:06 - Extensão bloqueada ignorada: Indiana Jones e o Grande Círculo.lnk
+2025-02-13 15:50:06 - Pasta ignorada: Outros
+2025-02-13 15:50:06 - Extensão bloqueada ignorada: Silent Hill 2.lnk
