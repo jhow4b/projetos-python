@@ -115,6 +115,13 @@ def organizar_pasta(diretorio):
         if not os.path.exists(pasta_destino):
             os.makedirs(pasta_destino)
 
+        destino_final = os.path.join(pasta_destino, item)
+        contador = 1
+        while os.path.exists(destino_final):
+            nome, ext = os.path.splitext(item)
+            destino_final = os.path.join(pasta_destino, f"{nome}_{contador}{ext}")
+            contador += 1
+
         try:
             shutil.move(item_path, os.path.join(pasta_destino, item))
             log(f"Movido: {item} → {pasta_destino}")
