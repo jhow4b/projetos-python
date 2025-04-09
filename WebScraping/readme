@@ -1,0 +1,1 @@
+Este pequeno projeto é um WebScrapper que coleta o nome, preço normal e preço com desconto para Cacau Lovers da loja da Cacau Show, fiz ele para ajudar minha namorada no seu trabalho, onde perderia bastante tempo para coletar todas as informações. Com este codigo, utilizando apenas Python, Selenium e Pandas consegui criar uma solução rápida, automática e totalmente funcional.
